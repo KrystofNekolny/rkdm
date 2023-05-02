@@ -1,0 +1,195 @@
+body{
+    
+    background-color: rgb(29, 9, 3);
+    margin-top: 60px;
+    
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)) , url("/rkdm/res/img/rkdm-main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#title{
+    font-family: Fondamento-Regular;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    border-top: 5px  rgb(66, 18, 3, 0.5) solid;
+    border-bottom: 5px  rgb(66, 18, 3, 0.5) solid;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: -70px;
+    margin-left: 200px;
+    letter-spacing: 65px;
+}
+
+#y {
+  font-size: 20px;
+}
+
+#menuy {
+  position: absolute;
+  top: 3%;
+  right: 10;
+  left: 0;
+  width: 76%;
+  display: table;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  border-bottom: 5px #ffffff outset;
+  border-end-end-radius: 5px;
+}
+
+#menuy #y {
+  position: relative;
+  width: 33.333%;
+  display: table-cell;
+  text-align: center;
+  color: #949494;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  
+  transition: 0.2s ease color;
+}
+
+#menuy #y:before,
+#menuy #y:after {
+  content: "";
+  position: relative;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.2s ease transform;
+}
+
+#menuy #y:before {
+  top: 0;
+  left: 10px;
+  width: 6px;
+  height: 6px;
+}
+
+#menuy #y:after {
+  top: 5px;
+  left: 18px;
+  width: 4px;
+  height: 4px;
+}
+
+#indicator {
+  position: absolute;
+  left:auto;
+  bottom: 0;
+  width: 100px ;
+  height: 3px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: 0.2s ease left;
+}
+
+#menuy #y:hover {
+  color: #fff;
+}
+
+#menuy #y:hover:before,
+#menuy #y:hover:after {
+  transform: scale(1);
+}
+
+#menuy #y:nth-child(1):hover ~ #indicator {
+  width: 300px;
+  left: 0%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(2):hover ~ #indicator {
+  width: 300px;
+  left: 24%;
+  background: linear-gradient(130deg, #ffffff, rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(3):hover ~ #indicator {
+  width: 250px;
+  left: 50%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(4):hover ~ #indicator {
+  left: 70%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(5):hover ~ #indicator {
+  left: 78%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(6):hover ~ #indicator {
+  left: 85%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), rgb(244, 201, 150));
+}
+
+#menuy #y:nth-child(7):hover ~ #indicator {
+  left: 92%;
+  background: linear-gradient(130deg, rgb(255, 255, 255), );
+}
+
+#x {
+color: #000000;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#menux {
+  padding-top: 10px;
+}
+
+#menux #x {
+margin-left: 0%;
+margin-top: 5.5%;
+color: #ffffff;
+background-color: rgba(15, 15, 15, 0.5);
+/**rgb(220, 0, 74) původní barva **/
+height: 40px;
+width: auto;
+margin-top: 2px;
+display: list-item;
+text-decoration: none;
+border-top: #949494 solid;
+
+
+
+}
+
+#menux #x:hover {
+background-color: rgb(156, 91, 1, 0.2);
+}
+
+@font-face {
+  font-family: Fondamento-Regular;
+  src: url(Fondamento-Regular.ttf) format("truetype");
+}
+
+.Fondamento-Regular {
+  font-family: Fondamento-Regular, !important;
+}
+
+#txt {
+padding-right: 50px;
+}
+
+#txtobal {
+  position: absolute;
+  top: 145px;
+  left: 480px;
+  border: none;
+  width: 1360px;
+  height: 800px;
+  background-color: rgba(66, 18, 3, 0.527);
+  font-family: 'Fondamento-Regular', Georgia, 'Times New Roman', Times, serif, cursive;
+  color: #949494;
+}
