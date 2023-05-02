@@ -1,2 +1,2 @@
-# �r�k�d�m�
+# rkdm
 [View](https://krystofnekolny.github.io/rkdm/)
