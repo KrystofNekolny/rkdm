@@ -197,3 +197,14 @@ nav a:nth-child(7):hover ~ #Indicator {
 }
 
 /* ^ NAV ^*/
+
+/* ˇ INDEX_A ˇ */
+
+#Content img {
+
+	display: block;
+	width: 30%;
+
+}
+
+/* ^INDEX_A ^ */
