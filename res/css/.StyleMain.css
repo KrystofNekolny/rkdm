@@ -1,0 +1,199 @@
+/*
+ __/\__                                                                                                                                                                                                                                                                                                     __/\__
+ \    /_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____\    /
+ /_  _\_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____/_  _\
+ | \/                                                                                                                                                                                                                                                                                                         \/ |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ |_|   _ _ _ _ _      _  ________   ___\_/_   \\// _____ __  __ _   _ _  _____  _     _____     __  _   _ _____ ____  _   _ ____  _____ _\_/    ____   ___ ______   _ __  __  \\//_____   _   _    _    ____ ___ _\_/    __  __ ___   _   _    _      _____ _____    _    __  __ ____        _ _ _ _ _         |_|
+ | |  | | | | | |    | |/ /  _ \ \ / /__  /   _\/_| ____|  \/  | | | | |/ / _ \| |   |_ _\ \   / / | \ | | ____| __ )| | | |  _ \| ____/ ___|  |  _ \ / _ \__  / | | |  \/  |__\/|_   _| | \ | |  / \  |  _ \_ _/ ___|  |  \/  |_ _| | \ | |  / \    |_   _| ____|  / \  |  \/  / ___|      | | | | | |        | |
+ | |  | | | | | |    | ' /| | | \ V /  / /   / ___|  _| | |\/| | | | | ' / | | | |    | | \ \ / /  |  \| |  _| |  _ \| | | | | | |  _| \___ \  | |_) | | | |/ /| | | | |\/| | ____|| |   |  \| | / _ \ | |_) | |\___ \  | |\/| || |  |  \| | / _ \     | | |  _|   / _ \ | |\/| \___ \      | | | | | |        | |
+ | |  |_|_|_|_|_|    | . \| |_| || |  / /_  | |___| |___| |  | | |_| | . \ |_| | |___ | |  \ V /   | |\  | |___| |_) | |_| | |_| | |___ ___) | |  _ <| |_| / /_| |_| | |  | |  _|_ | |   | |\  |/ ___ \|  __/| | ___) | | |  | || |  | |\  |/ ___ \    | | | |___ / ___ \| |  | |___) |     |_|_|_|_|_|        | |
+ | |  (_|_|_|_|_)    |_|\_\____/ |_| /____|  \____|_____|_|  |_|\___/|_|\_\___/|_____|___|  \_/    |_| \_|_____|____/ \___/|____/|_____|____/  |_| \_\\___/____|\___/|_|  |_|_____||_|   |_| \_/_/   \_\_|  |___|____/  |_|  |_|___| |_| \_/_/   \_\   |_| |_____/_/   \_\_|  |_|____/      (_|_|_|_|_)        | |
+ |_|                                                                                                                                                                                                                                                                                                           |_|
+ | |                                                                                                                                                                                                                                                                                                           | |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ | |                                                                                                                                                                                                                                                                                                           | |
+ |_/\__                                                                                                                                                                                                                                                                                                     __/\_|
+ \    /_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____\    /
+ /_  _\_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____/_  _\
+   \/                                                                                                                                                                                                                                                                                                         \/  
+*/
+
+/*
+
+	Zařizuje aby pozadí stránky vypadalo jak vypadá.
+	Tady úplně nahoře jsou takový základní věci aby všechno fungovalo.
+	Ty značky typu "ˇ HEADER ˇ" a "^ HEADER ^" jsou pro lepši navigaci.
+	V tom případě s HEADER ti to řiká kde začínají a končí vlastonsti pro header.
+
+*/
+
+body {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./../img/BackgroundImage.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+
+}
+
+a {
+
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+p {
+
+	color: #949494;
+
+}
+
+h1 {
+
+	color: #949494;
+
+}
+
+/* ˇ HEADER ˇ */
+
+/*
+
+	Header je to co obsahuje ten gif a název
+
+*/
+
+header {
+
+	border-top: 5px rgb(66, 18, 3, 0.5) solid;
+	border-bottom: 5px rgb(66, 18, 3, 0.5) solid;
+	display: flex;
+
+}
+
+header h1 {
+
+	color: rgb(255 255 255);
+	font-size: 25px;
+	letter-spacing: 10px;
+	text-align: center;
+	width: 100%;
+
+}
+
+/* ^ HEADER ^ */
+
+/* ˇ NAV ˇ */
+
+/*
+
+	Tzv. navigační menu je to snad to nejsložitější to co tady je
+
+*/
+
+/*
+
+	Tahle část zajišťuje aby všechny věci v které jsou v tom navigačním menu byli rovnoměrně rozprostřeny
+
+*/
+
+nav {
+
+	display: flex;
+	justify-content: space-between; /* Když je display flex tohle řikám jak se k těm věcem co jsou uvnitř má chovat */
+	margin-bottom: 25px;
+	padding: 5%;
+	padding-bottom: 0%;
+
+}
+
+nav a {
+
+	color: rgb(148 148 148);
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	transition: .5s ease;
+	vertical-align: text-bottom;
+	width: 25%;
+
+}
+
+nav #Indicator {
+
+	background-color: white;
+	border-radius: 5px;
+	height: 5px;
+	left: 5.8%;
+	margin-top: 18px;
+	opacity: 0%;
+	position: absolute;
+	transition: .5s ease;
+	width: 12.7%;
+
+}
+
+/* Když na menu neukazuješ tak ta čára (Indicator) zmizí*/
+
+nav:hover #Indicator {
+
+	opacity: 100%;
+
+}
+
+/* Když ukážeš na odkaz v navigačním menu tak zbělá*/
+
+nav a:hover {
+
+	color: rgb(255 255 255);
+
+}
+
+/*
+
+	Tady jsou ty všechny eventy možná to vypadá složitě ale není to tak hrozný.
+	To "nth-child()" řiká kolikátky prvek má vybrat. Takže nth-child(2) by vybral druhý prvek v nav.
+	Ale před to eště musíš dát jaký prvek má vybrat. Takže a:nth-child(2) by vybralo druhý prvek typu "a"
+	v navigačním menu. A hover je jednoduchý když na něj ukážeš tak se stano to co je mezi těmi složených závorkách.
+
+*/
+
+nav a:nth-child(2):hover ~ #Indicator {
+
+	left: 18.3%;
+
+}
+
+nav a:nth-child(3):hover ~ #Indicator {
+
+	left: 31.1%;
+
+}
+
+nav a:nth-child(4):hover ~ #Indicator {
+
+	left: 43.7%;
+
+}
+
+nav a:nth-child(5):hover ~ #Indicator {
+
+	left: 56.3%;
+
+}
+
+nav a:nth-child(6):hover ~ #Indicator {
+
+	left: 68.9%;
+
+}
+
+nav a:nth-child(7):hover ~ #Indicator {
+
+	left: 81.5%;
+
+}
+
+/* ^ NAV ^*/
