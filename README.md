@@ -1,2 +1,2 @@
 # rkdm
-[View](https://krystofnekolny.github.io/rkdm/indexA.html)
+[View](https://krystofnekolny.github.io/rkdm/index.html)
