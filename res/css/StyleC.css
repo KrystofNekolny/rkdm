@@ -1,0 +1,24 @@
+#Content {
+
+	height: auto;
+
+}
+
+#DJList {
+
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+#DJList img {
+
+	height: auto;
+
+}
+
+#DJList p {
+
+	text-align: center;
+
+}
